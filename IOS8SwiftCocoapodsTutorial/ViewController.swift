@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import FontBlaster
 
 class ViewController: UIViewController {
 
+    @IBOutlet var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // 初始化字体风格
+        FontBlaster.debugEnabled = true
+        FontBlaster.blast()
+        label.font = UIFont(name: "OpenSans-Bold", size: 30.0)
+        label.text = "Testing Cocoapods"
     }
 
     override func didReceiveMemoryWarning() {

@@ -13,6 +13,7 @@
 		804701C01B5FE8EF004A0107 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804701BF1B5FE8EF004A0107 /* Images.xcassets */; };
 		804701C31B5FE8EF004A0107 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804701C11B5FE8EF004A0107 /* LaunchScreen.xib */; };
 		804701CF1B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804701CE1B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorialTests.swift */; };
+		B2568CEAD36042C960CF3275 /* Pods_IOS8SwiftCocoapodsTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE4501A811526BA80592134 /* Pods_IOS8SwiftCocoapodsTutorial.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B31A5121957272DF9F435C4 /* Pods-IOS8SwiftCocoapodsTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS8SwiftCocoapodsTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS8SwiftCocoapodsTutorial/Pods-IOS8SwiftCocoapodsTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		804701B31B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS8SwiftCocoapodsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804701B71B5FE8EF004A0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804701B81B5FE8EF004A0107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		804701CD1B5FE8EF004A0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804701CE1B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS8SwiftCocoapodsTutorialTests.swift; sourceTree = "<group>"; };
 		804701D81B5FEA36004A0107 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../../../../Downloads/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		A40C78AB089192D5D08CEED7 /* Pods-IOS8SwiftCocoapodsTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS8SwiftCocoapodsTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS8SwiftCocoapodsTutorial/Pods-IOS8SwiftCocoapodsTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE4501A811526BA80592134 /* Pods_IOS8SwiftCocoapodsTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS8SwiftCocoapodsTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2568CEAD36042C960CF3275 /* Pods_IOS8SwiftCocoapodsTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,8 @@
 				804701B51B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorial */,
 				804701CB1B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorialTests */,
 				804701B41B5FE8EF004A0107 /* Products */,
+				ADD216B00436B6E7B1E6C6E0 /* Pods */,
+				BBB4777DC90C2BF35BD21A96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +121,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ADD216B00436B6E7B1E6C6E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A40C78AB089192D5D08CEED7 /* Pods-IOS8SwiftCocoapodsTutorial.debug.xcconfig */,
+				4B31A5121957272DF9F435C4 /* Pods-IOS8SwiftCocoapodsTutorial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBB4777DC90C2BF35BD21A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4501A811526BA80592134 /* Pods_IOS8SwiftCocoapodsTutorial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 804701D21B5FE8EF004A0107 /* Build configuration list for PBXNativeTarget "IOS8SwiftCocoapodsTutorial" */;
 			buildPhases = (
+				651C67ED78E3D89B1C815503 /* Check Pods Manifest.lock */,
 				804701AF1B5FE8EF004A0107 /* Sources */,
 				804701B01B5FE8EF004A0107 /* Frameworks */,
 				804701B11B5FE8EF004A0107 /* Resources */,
+				4F38B906607CA0BEC454DD5A /* Embed Pods Frameworks */,
+				FFCAEC48F704C22FA72659F9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -208,6 +235,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F38B906607CA0BEC454DD5A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS8SwiftCocoapodsTutorial/Pods-IOS8SwiftCocoapodsTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651C67ED78E3D89B1C815503 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FFCAEC48F704C22FA72659F9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS8SwiftCocoapodsTutorial/Pods-IOS8SwiftCocoapodsTutorial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		804701AF1B5FE8EF004A0107 /* Sources */ = {
@@ -340,6 +415,7 @@
 		};
 		804701D31B5FE8EF004A0107 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40C78AB089192D5D08CEED7 /* Pods-IOS8SwiftCocoapodsTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOS8SwiftCocoapodsTutorial/Info.plist;
@@ -350,6 +426,7 @@
 		};
 		804701D41B5FE8EF004A0107 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B31A5121957272DF9F435C4 /* Pods-IOS8SwiftCocoapodsTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IOS8SwiftCocoapodsTutorial/Info.plist;
@@ -411,6 +488,7 @@
 				804701D41B5FE8EF004A0107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		804701D51B5FE8EF004A0107 /* Build configuration list for PBXNativeTarget "IOS8SwiftCocoapodsTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +497,7 @@
 				804701D71B5FE8EF004A0107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

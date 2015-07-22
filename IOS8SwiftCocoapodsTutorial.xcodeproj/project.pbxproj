@@ -36,6 +36,7 @@
 		804701C81B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS8SwiftCocoapodsTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		804701CD1B5FE8EF004A0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		804701CE1B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS8SwiftCocoapodsTutorialTests.swift; sourceTree = "<group>"; };
+		804701D81B5FEA36004A0107 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../../../../Downloads/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		804701B51B5FE8EF004A0107 /* IOS8SwiftCocoapodsTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				804701D81B5FEA36004A0107 /* OpenSans-Bold.ttf */,
 				804701B81B5FE8EF004A0107 /* AppDelegate.swift */,
 				804701BA1B5FE8EF004A0107 /* ViewController.swift */,
 				804701BC1B5FE8EF004A0107 /* Main.storyboard */,
